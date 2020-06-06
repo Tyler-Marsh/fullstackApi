@@ -53,15 +53,25 @@ class CourseDetail extends React.Component {
       emailAddress,
       userId
     } = course;
-    const authUser = this.props.context.authenticatedUser;
+    //if (this.props.context.authenticatedUser) {
+    //  const authId = this.props.context.authenticatedUser.id
+    
+  //  else {
+   //   authId = null;
+   // }
+    let authId = null;
     // create teacher variable
     const teacher = (course.firstName + " " + course.lastName);
+    let auth = this.props.context.authenticatedUser
+    if (auth) {
+       authId = auth.id
+    }
     return (
       <div>
         <div className="actions--bar">
           <div className="bounds">
             <div className="grid-100"><span>
-            { authUser.id === course.userId ?
+            { authId === userId ?
 
              (<div>
                <Link className="button" to={`/courses/${id}/update`}>Update Course</Link><Link className="button" onClick={this.handleDelete} to={`#`}>Delete Course</Link><Link
@@ -128,5 +138,6 @@ class CourseDetail extends React.Component {
       });
   }
 }
+
 
 export default CourseDetail;
