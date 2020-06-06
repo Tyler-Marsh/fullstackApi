@@ -42,11 +42,11 @@ npm start
 
 
 # Skills
-*React
-*REST API
-*React-router
-*Conditional Rendering
-*AJAX
-*Composition
-*HTML 
-*CSS
+* React
+* REST API
+* React-router
+* Conditional Rendering
+* AJAX
+* Composition
+* HTML 
+* CSS
