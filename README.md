@@ -19,3 +19,18 @@ npm install
 npm start
 ```
 
+# Project outline
+
+* root page
+![](project-pics/courses.png)
+
+
+* view course details as anonymous user
+![](project-pics/course-detail-anon-user.png)
+
+
+* view course details as course owner
+![](project-pics/course-detail-user-owned-view.png)
+
+* course update page and example of validation in the app
+![](project-pics/course-update-validation.png)
