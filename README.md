@@ -26,7 +26,7 @@ npm start
 ![](project-pics/courses.png)
 
 
-* view course details as anonymous user
+* view course details of another user
 
 ![](project-pics/course-detail-anon-user.png)
 
